@@ -70,7 +70,7 @@ const HabitTracker = () => {
       dates.push(date);
     }
     return dates;
-  };
+  }; 
 
   const calculateStreak = (completedDates) => {
     let streak = 0;
